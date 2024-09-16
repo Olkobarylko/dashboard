@@ -1,0 +1,32 @@
+.grafic {
+  background-color: #171717;
+  color: #fff;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.grafic__title {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-transform: capitalize;
+  margin-bottom: 13px;
+}
+
+.grafic__image img {
+  display: block;
+  width: 100%;
+}
+
+.grafic .MuiChartsAxis-tickContainer line {
+  fill: white;
+}
+
+.grafic line{
+  stroke: #666666!important;
+}
+
+.grafic tspan {
+  fill: #666666;
+}

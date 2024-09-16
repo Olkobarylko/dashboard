@@ -1,0 +1,11 @@
+.content {
+  padding: 12px;
+  flex-grow: 1;
+}
+
+.content__row {
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 12px;
+}

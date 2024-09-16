@@ -1,0 +1,22 @@
+.expense-breakdown {
+  padding: 20px;
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  color: #fdfdfd;
+  font-family: "Montserrat";
+
+  &__heading {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+  }
+
+  &__chart {
+    margin-top: 20px;
+    height: calc(100% - 70px);
+    display: flex;
+    align-items: center;
+  }
+}

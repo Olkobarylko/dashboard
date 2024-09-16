@@ -1,0 +1,121 @@
+.statistics {
+  background-color: #171717;
+  border-radius: 12px;
+  padding: 24px;
+  color: #fff;
+}
+
+.statistics__title {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-transform: capitalize;
+  margin-bottom: 24px;
+}
+
+.statistics__total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.statistics__total-title {
+  font-family: "OpenSans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #666666;
+}
+
+.statistics__total-price {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #fff;
+}
+
+.statistics__wrapper {
+  padding-top: 8px;
+  border-top: 1px solid #303030;
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.statistics__precent {
+  display: block;
+}
+
+.statistics__precent-line {
+  margin: 0 2px;
+}
+
+.statistics__precent-line:first-child {
+  margin-left: 0;
+}
+
+.statistics__precent-line:last-child {
+  margin-right: 0;
+}
+
+.statistics__precent-line {
+  width: auto;
+  border-radius: 12px;
+  height: 32px;
+}
+
+.statistics__precent-text {
+  border-top: 1px solid #303030;
+  padding-top: 12px;
+  margin-top: 8px;
+  font-family: "OpenSans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #666666;
+}
+
+.statistics__info:not(:last-child) {
+  margin-bottom: 21px;
+}
+
+.statistics__info-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.statistics__info-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.statistics__info-roll {
+  border-radius: 16px;
+  width: 16px;
+  height: 16px;
+}
+
+.statistics__info-name,
+.statistics__info-price {
+  font-family: "Montserrat";
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.statistics__info-line {
+  background-color: #303030;
+  height: 2px;
+  border-radius: 50%;
+}
+
+.statistics__info-line-full {
+  height: 2px;
+  background-color: #fff;
+}

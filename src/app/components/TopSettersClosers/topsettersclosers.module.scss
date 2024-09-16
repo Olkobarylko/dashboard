@@ -1,0 +1,427 @@
+.topsettersclosers {
+    background-color: #171717;
+    color: #fff;
+    border-radius: 12px;
+    padding: 12px;
+  }
+
+  .topsettersclosers__container{
+    display: flex;
+    gap: 12px;
+  }
+  
+  .topsettersclosers__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .topsettersclosers__title {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: capitalize;
+    display: flex;
+    gap: 12px;
+  
+    span {
+      font-family: "OpenSans";
+      color: #666666;
+    }
+  }
+  
+  .topsettersclosers__actions {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 24px;
+  }
+  
+  .topsettersclosers__layout {
+    cursor: pointer;
+    font-family: "Montserrat";
+    color: #fff;
+    border: 1px solid #303030;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+  }
+  
+  .topsettersclosers__layout:hover {
+    border: 1px solid #ffffff;
+  }
+  
+  .topsettersclosers__export {
+    cursor: pointer;
+    font-family: "Montserrat";
+    border-radius: 50px;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #ea1831;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 186%;
+    color: #fff;
+    transition: ease-in-out 0.25s background-color;
+  }
+  
+  .topsettersclosers__export:hover {
+    background-color: #b80b1f;
+  }
+  
+  .topsettersclosers__search {
+    position: relative;
+    border-radius: 50px;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .topsettersclosers__search input:focus {
+    width: 200px;
+    color: #fff;
+  }
+  
+  .topsettersclosers__search input {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #303030;
+    background-color: transparent;
+    color: transparent;
+    padding-left: 10px;
+    border-radius: 50px;
+    z-index: 10;
+    transition: ease-in-out 0.25s all;
+  }
+  
+  .topsettersclosers__search img {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 0;
+  }
+  
+  .topsettersclosers__filter {
+    font-family: "Montserrat";
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 50px;
+    padding: 4px 16px;
+    border: 1px solid #303030;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 186%;
+  }
+  
+  .topsettersclosers__select {
+    font-family: "Montserrat";
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid #303030;
+    padding: 4px 16px;
+    gap: 24px;
+  
+    span {
+      color: #666666;
+    }
+  }
+  
+  .topsettersclosers__labels {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #303030;
+  }
+  
+  .topsettersclosers__labels label {
+    font-family: "Calibri";
+    padding: 10px 20px;
+    color: #666666;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    width: 100%;
+  }
+  
+  .topsettersclosers__labels-id {
+    max-width: 55px;
+    display: block;
+  }
+  
+  .topsettersclosers__labels-topsettersclosers-name {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    max-width: 220px;
+  }
+  
+  .topsettersclosers__labels-contact {
+    display: block;
+    max-width: 225px;
+    padding: 0 10px !important;
+    width: 100%;
+  }
+  
+  .topsettersclosers__labels-role {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    max-width: 161px;
+  }
+  
+  .topsettersclosers__labels-team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    max-width: 240px;
+  }
+  
+  .topsettersclosers__labels-rate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    max-width: 180px;
+  }
+  
+  .topsettersclosers__labels-birthday {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    max-width: 190px;
+  }
+  
+  .topsettersclosers__labels-sales-closed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    max-width: 240px;
+  }
+  
+  .topsettersclosers__team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    max-width: 240px;
+  }
+  
+  .topsettersclosers__labels-satisfaction {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    max-width: 146px;
+  }
+  
+  .topsettersclosers__item {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    font-family: "Calibri";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    position: relative;
+  }
+  
+  .topsettersclosers__item > div {
+    padding: 0px 20px;
+  }
+  
+  .topsettersclosers__item:not(:last-child) {
+    border-bottom: 1px solid #303030;
+  }
+  
+  .topsettersclosers__item-id {
+    max-width: 55px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .topsettersclosers__item-name {
+    width: 100%;
+    max-width: 220px;
+  }
+  
+  .topsettersclosers__item-contacts {
+    display: flex;
+    gap: 8px;
+    max-width: 225px;
+    padding: 0 10px !important;
+    width: 100%;
+  }
+  
+  .topsettersclosers__item-contacts div {
+    padding: 8px 12px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid #303030;
+  }
+  
+  .topsettersclosers__item-role {
+    width: 100%;
+    max-width: 161px;
+  }
+  
+  .topsettersclosers__item-team {
+    width: 100%;
+    max-width: 240px;
+    text-align: center;
+  }
+  
+  .topsettersclosers__item-sales-closed {
+    width: 100%;
+    max-width: 240px;
+    text-align: center;
+  }
+  
+  .topsettersclosers__item-team {
+    width: 100%;
+    max-width: 240px;
+    text-align: center;
+  }
+  
+  .topsettersclosers__item-rate {
+    max-width: 180px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .topsettersclosers__item-birthday{
+    max-width: 190px;
+    width: 100%;
+    text-align: center; 
+  }
+  
+  .topsettersclosers__item-satisfaction {
+    width: 100%;
+    max-width: 146px;
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .topsettersclosers__item-options {
+    position: absolute;
+    top: 26px;
+    right: -23px;
+  }
+  
+  .topsettersclosers__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+  }
+  
+  .topsettersclosers__cards-item {
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px solid #303030;
+    transition: ease-in-out 0.25s background-color;
+    cursor: pointer;
+  }
+  
+  .topsettersclosers__cards-item::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(0, 255, 255, 0.7);
+    border-radius: 50px;
+    filter: blur(80px);
+  }
+  
+  .topsettersclosers__cards-heading {
+    position: relative;
+    z-index: 10;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .topsettersclosers__cards-heading img {
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .topsettersclosers__cards-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 16px;
+    position: relative;
+    z-index: 10;
+  }
+  
+  .topsettersclosers__cards-info p {
+    display: flex;
+    gap: 4px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    max-width: 258px;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+  
+    span {
+      max-width: 120px;
+      width: 100%;
+      border-right: 1px solid #303030;
+      font-family: "OpenSans";
+      margin-right: 20px;
+    }
+  }
+  
+  .topsettersclosers__cards-item .topsettersclosers__item-contacts {
+    max-width: 100%;
+    padding: 0 !important;
+    font-family: "Calibri";
+    margin-bottom: 16px;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+  }
+  
+  .topsettersclosers__cards-info-bottom {
+    display: flex;
+    gap: 8px;
+    justify-content: space-around;
+  }
+  
+  .topsettersclosers__cards-id {
+    font-family: "Calibri";
+  }
+  
+  .topsettersclosers__cards-item .topsettersclosers__item-contacts > * {
+    border-color: rgba(0, 255, 255, 0.7);
+  }
+  
+  .topsettersclosers__cards-item {
+    transition: ease-in-out 0.25s all;
+  }
+  
+  .topsettersclosers__cards-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px 2px rgba(0, 255, 255, 0.7);
+  }
+  
